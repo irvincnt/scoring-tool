@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { Button, Container } from 'reactstrap';
 //import Nav from './../nav'
-import ProspectList from './../prospects-list'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import ProspectList from './../prospects-list'
+import Recluited from './../recruited'
+
 
 // var Haikunator = require('haikunator')
 
@@ -59,9 +61,8 @@ class App extends Component {
               </ul>
             </div>
           </nav>
-          <p class="text-left font-weight-bold">List of candidates to recruit</p>
-          {/* <ProspectList prospects={PROPSPECTS}/> */}
           <Route exact path="/" component={ProspectList} />
+          <Route exact path="/recruited" component={Recluited} />
           </div>
         </Router>
       </Container>

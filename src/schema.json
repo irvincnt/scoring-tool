@@ -1,0 +1,14 @@
+export default [
+    {'emoji': '🐵', name: '@MaquinaDeFuego'},
+    {'emoji': '🤖', name: '@MaquinaDeFuego'},
+    {'emoji': '🐱', name: '@MaquinaDeFuego'},
+    {'emoji': '🐶', name: '@MaquinaDeFuego'},
+    {'emoji': '👽', name: '@MaquinaDeFuego'},
+    {'emoji': '🦊', name: '@MaquinaDeFuego'},
+    {'emoji': '💩', name: '@MaquinaDeFuego'},
+    {'emoji': '🐷', name: '@MaquinaDeFuego'},
+    {'emoji': '🐼', name: '@MaquinaDeFuego'},
+    {'emoji': '🐰', name: '@MaquinaDeFuego'},
+    {'emoji': '🐔', name: '@MaquinaDeFuego'},
+    {'emoji': '🦄', name: '@MaquinaDeFuego'}
+  ]

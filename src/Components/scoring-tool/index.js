@@ -4,6 +4,7 @@ import { Button, Container } from 'reactstrap';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import ProspectList from './../prospects-list'
 import Recluited from './../recruited'
+import Grafics from './../grafics'
 
 
 // var Haikunator = require('haikunator')
@@ -46,7 +47,7 @@ class App extends Component {
         <Router>
           <div>
           <nav class="navbar navbar-expand-lg navbar-light bg-light" style={divMargin}>
-            <a class="navbar-brand" href="#">Gendly</a>
+            <a class="navbar-brand" href="#">genderX</a>
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -63,6 +64,7 @@ class App extends Component {
           </nav>
           <Route exact path="/" component={ProspectList} />
           <Route exact path="/recruited" component={Recluited} />
+          <Route exact path="/grafics" component={Grafics} />
           </div>
         </Router>
       </Container>
